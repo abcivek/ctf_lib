@@ -1,6 +1,7 @@
 import base64
 import codecs
 
+# decoding functions
 def hex_dec(value):
 	decoded = bytearray.fromhex(value).decode()
 	return decoded
